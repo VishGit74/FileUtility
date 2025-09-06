@@ -8,7 +8,7 @@ from pathlib import Path
 class SmartOrganizer:
     def __init__(self,target_directory):
         self.target_dir = target_directory
-        self.log_file = "org_logfile.json"
+        self.log_file = "org_logfile.jsonl"
         self.categories = {
             'Documents':['pdf','docx','doc','txt'],
             'Data':['xlsx','xls','csv','json'],
